@@ -25,6 +25,7 @@
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
+  "main": "server.js",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "4.7.0",
@@ -32,8 +33,12 @@
     "jquery.easing": "^1.4.1",
     "magnific-popup": "^1.1.0",
     "popper.js": "^1.11.1",
-    "scrollreveal": "3.3.6"
+    "scrollreveal": "3.3.6",
+    "express": "3.x"
   },
+  "engines": {
+    "node": "0.10.x"
+    },
   "devDependencies": {
     "browser-sync": "2.18.13",
     "gulp": "^3.9.1",
