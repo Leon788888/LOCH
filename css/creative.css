@@ -3,8 +3,19 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+ .text-red {
+      color: #f05f40!important;
+}
 
+.book-container{
 
+}
+.chapter_container{
+
+}
+.music-container{
+  
+}
 
 body,
 html {
@@ -150,7 +161,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/chopped_seas.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
